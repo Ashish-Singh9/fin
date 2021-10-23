@@ -1,0 +1,17 @@
+.homeBody{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.active{
+    color:green;
+}
+#Agenda{
+    background-image: url(https://www.asus.com/support/images/deeplink/bg-top1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}#Agenda p{
+    margin:0px;
+    padding:0px;
+}

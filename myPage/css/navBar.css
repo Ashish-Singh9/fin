@@ -1,0 +1,14 @@
+.logoImg{
+    width:60px;
+}
+.size{
+    font-size: 25px;
+}
+.btnOutline{
+    outline:none;
+    background-color: transparent;
+    border: none;
+}
+.black{
+    color:black;
+}

@@ -1,0 +1,146 @@
+.userProfile{
+    margin: 0 1rem;
+    padding: 1rem;
+    border-bottom:1px solid rgba(214, 211, 211, 0.966);
+    border-left: 1px solid rgba(214, 211, 211, 0.966);
+    border-right: 1px solid rgba(214, 211, 211, 0.966);
+}
+.userProfile{
+    display: grid;
+    grid-template-columns:1fr 3fr;   
+}
+.userImgName{
+    grid-column: 1;
+}
+.userInfo{
+    grid-column: 2;
+}
+.userInfoFlex{
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+}
+.userImgName{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+    padding: 1rem;
+}
+.userImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 12rem;
+    width: 12rem;
+    background-color: yellowgreen;
+}
+.userProfileImg{
+    height: 12rem;
+    width: 12rem;
+}
+.name{
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+
+.inputName{
+    background-color: transparent;
+    border: none;
+    font-size: 1.1rem;
+    color:rgb(37, 36, 36);
+}
+.hide{
+ display: none;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.info label{
+    font-size: .8rem;
+}
+.dottedBorder{
+    padding:0.5rem;
+    padding-left: 0;
+    margin: 1rem 1rem;
+    border-bottom: 2px dotted rgb(170, 164, 164);
+}
+.inputInfo{
+    width: 20rem;
+    background-color: transparent;
+    border: none;
+    font-size: 1.1rem;
+    color:rgb(37, 36, 36);
+}
+@media (max-width:1040px) {    
+    .inputInfo{
+        width: 15rem;
+    }
+}
+@media (max-width:950px) {
+    .userProfile{
+        grid-template-columns:1fr;   
+        grid-template-rows: 1fr 2fr;
+    }   
+    .userImgName{
+        grid-column: 1/2;
+        grid-row: 1;
+    }
+    .userInfo{
+        grid-column: 1/2;
+        grid-row: 2;
+    }    
+    .inputInfo{
+        width: 20rem;
+    }
+}
+@media (max-width:400px)
+{
+    .userProfile{
+        margin: 0 0.5rem;
+    }
+    .userInfoFlex{
+        flex-direction: column;
+        justify-content: start;
+    }   
+    .inputInfo{
+        width: 15rem;
+    }
+}
+.questionContributed{
+    margin: 1rem;
+}
+.headQuestion{
+    color: rgb(66, 64, 64);
+}
+.headQuestion h3{
+    margin-bottom:0;
+}
+.question{
+    padding: 1rem 0.5rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 1px solid rgba(200, 196, 196, 0.911);
+    display: flex;
+}
+.question p{
+    margin-bottom: 0;
+}
+.badge{
+    margin-left:1rem ;
+    border-radius: 20px;
+    color: white;
+    width: fit-content;
+    height: 1.5rem;
+}
+.badge p{
+    padding: 1px;
+}
+.accepted{
+    background-color: green;
+}
+.rejected{
+    background-color: red;
+}

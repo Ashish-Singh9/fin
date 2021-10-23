@@ -1,0 +1,203 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+@media (max-width:1060px){
+    .graphGrid{
+        padding:2rem 5rem !important;    
+        grid-template-columns: 1fr !important;
+       grid-template-rows: repeat(2,1fr) !important;
+    }   
+    .piechart_3d{
+        width:25rem !important;
+        height: 20rem !important;
+    }
+   }
+   @media (max-width:600px){
+    .graphGrid{
+        padding:2rem !important;    
+        grid-template-columns: 1fr !important;
+       grid-template-rows: repeat(2,1fr) !important;
+    }   
+    .piechart_3d{
+        width:20rem  !important ;
+        height: 15rem !important;
+    }
+   }
+.graphGrid{
+    padding:0rem 5rem;
+    padding-top:5rem ;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.piechart_3d{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:30rem;
+    height: 25rem;
+}
+/*----Bar Garph------*/
+@media (max-width:1060px){
+    .barGraph{
+        padding:2em 0!important;
+    }
+    #chart_div{
+        height: 35rem !important;
+        width: 30rem !important;      
+    }    
+}
+@media (max-width:800px){
+    .barGraph{
+        padding:1rem 0!important;
+    }
+    #chart_div{
+        height: 30rem !important;
+        width: 25rem !important;      
+    }    
+}
+@media (max-width:600px){
+    .barGraph{
+        padding:1rem 0 !important;
+    }
+    #chart_div{
+        height: 30rem !important;
+        width: 25rem !important;      
+    }    
+}
+@media (max-width:400px){
+    #chart_div{
+        height: 27rem !important;
+        width: 22rem !important;      
+    }
+}
+.barGraph{
+    padding:2rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-bottom: 3rem;
+}
+#chart_div{
+    height: 40rem;
+    width: 50rem;
+}
+/*--------table--------*/
+.containerTable{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 2rem 2rem;
+    justify-items: center;
+    align-items: center;
+}
+th{
+    word-wrap: break-word;
+}
+th{
+    border-top: 1px solid #D3D3D3;
+    border-bottom: 1px solid #D3D3D3;
+}
+table{
+    text-align: center;
+    width: 100%;
+}
+table td{
+    padding: 0.75rem;
+}
+table th{
+    padding: 0.75rem 0.25rem;
+}
+@media (max-width:900px){
+    .containerTable{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 1.5fr 1fr !important;
+        padding: 2rem 2rem;
+
+    } 
+}
+@media (max-width:400px){
+    .containerTable{
+        padding:0;
+
+    } 
+    .tableP1{
+        margin-bottom: 2rem;
+    }  
+}
+/*-----------tableResult----------*/
+
+.reslutTable{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+  padding-bottom: 2rem;
+}
+.loss{
+    color: red;
+}
+.profit{
+    color: green;
+}
+@media (max-width:800px){
+    .reslutTable{
+        padding: 2rem;
+    }
+}
+@media (max-width:400px){
+    .reslutTable{
+        padding: 0rem;
+    }
+}
+/*-----highlights-----*/
+.highlights{
+    margin: 5rem;
+    margin-top: 4rem !important;
+    line-height: 1.4;
+}
+
+.highlights h1{
+    font-size: 2.5rem;
+    margin: 2px;
+    padding: 2px;
+}
+.highlights h5{
+    font-size: 1.4rem;
+    margin: 2px;
+    padding: 2px;
+}
+
+@media (max-width:800px){
+    .highlights{
+        margin: 3rem;
+    }
+}
+@media (max-width:400px){
+    .highlights{
+        margin: 0;
+    }
+    
+}
+.highlightsHead{
+    margin-bottom: 3rem;
+    color: black !important;
+}
+.finalHighlights{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.hide{
+    display: none;
+}

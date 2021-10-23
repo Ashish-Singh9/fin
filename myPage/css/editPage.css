@@ -1,0 +1,74 @@
+.editPageBody{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-image: url(https://www.asus.com/support/images/deeplink/bg-top1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh !important;
+}
+#ShowEvery #Img img{
+    height:40vh;
+    width:30vw;
+}
+td{
+    border: none !important;
+}
+th{
+    border: none !important;
+}
+.editTool{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+button{
+    background-color: transparent;
+    border:none;
+    outline: none !important;
+}
+svg:active{
+    fill: red;
+}
+.saveEditTable{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: auto;
+    padding-right: 5rem;
+}
+@media (max-width:1100px) {
+    .saveEditTable{
+        padding-right: 3rem;
+    }
+    
+}
+@media (max-width:800px) {
+    .saveEditTable{
+        padding-right: 2rem;
+    }
+    
+}
+.saveEditTable button{ 
+    border: 1px solid black;
+}
+.tab{
+    overflow-x:auto;
+}
+input{
+    background-color: transparent;
+    border: 1px solid transparent;
+   
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
